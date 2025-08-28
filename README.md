@@ -37,24 +37,8 @@ This example demonstrates how to apply fading edge effect for the listview item 
                     TextColor="Teal">
                                 
                             </Label>
-                            <Label Grid.Row="1"
-                                Grid.Column="0"
-                                LineBreakMode="NoWrap"
-                                Text="{Binding ContactNumber}"
-                                HorizontalTextAlignment="Start"
-                                VerticalTextAlignment="Center"
-                                TextColor="Teal">
-                            </Label>
-                            <Label LineBreakMode="NoWrap"
-                                Text="{Binding ContactType}"
-                                TextColor="Teal" 
-                                Grid.Row="0"
-                                VerticalTextAlignment="End"
-                                HorizontalTextAlignment="Center"
-                                XAlign="End"
-                                YAlign="End"
-                                Margin="5">
-                            </Label>
+                            . . .
+                            . . .
                         </Grid>
                     </Frame>
                 </Grid>
