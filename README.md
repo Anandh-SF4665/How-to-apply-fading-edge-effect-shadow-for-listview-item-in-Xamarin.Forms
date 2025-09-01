@@ -46,19 +46,6 @@ This example demonstrates how to apply fading edge effect for the listview item 
         </syncfusion:SfListView.ItemTemplate>
     </syncfusion:SfListView>
 </Grid>
-
-ViewModel.cs:
-public ObservableCollection<ListViewContactsInfo> ContactsInfo
-{
-    get { return contactsInfo; }
-    set { this.contactsInfo = value; }
-}
-
-public void GenerateSource(int count)
-{
-    ListViewContactsInfoRepository contactRepository = new ListViewContactsInfoRepository();
-    contactsInfo = contactRepository.GetContactDetails(count);
-}
 ```
 
 See [How to apply fading edge effect (shadow) for listview item in Xamarin.Forms](https://www.syncfusion.com/kb/9489/how-to-apply-fading-edge-effect-shadow-for-listview-item-in-xamarin-forms) for more details.
